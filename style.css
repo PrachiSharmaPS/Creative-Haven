@@ -182,7 +182,7 @@ html, body {
 
 #moving-text h1 {
     position: relative;
-    font-size: 54px;
+    font-size: 4vw;
     font-weight: 300;
     text-transform: uppercase;
     animation-duration: 8s;
@@ -219,7 +219,7 @@ html, body {
     margin: 12px 0;
     font-weight: 500;
     color: var(--primary-color);
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 #some-detail p {
@@ -394,7 +394,12 @@ html, body {
     #nav-elem h4{
         display: none;
     }
- 
+ #nav-title h1{
+    font-size: 4.6vw;
+ }
+ #nav-title h4{
+    font-size: 2vw;
+ }
      #nav-elem i{
        font-size: 20px;
        display: block; 
@@ -411,6 +416,20 @@ html, body {
       justify-self: center;
  
     }
+    
+#moving-text h1 {
+    font-size: 5.5vw;
+}
+#some-detail button {
+    margin: 10px 20px;
+    padding: 16px 20px;
+    font-size: 14px;
+}
+#some-detail h2 {
+    font-size: 6.4vw;
+}
+
+
    } 
    
    /* 735 */
